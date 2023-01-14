@@ -26,7 +26,7 @@ Prepare the lists from the linear equations and assign in np.array()
 End the program
 
 ## Program:
-
+```
 #Program to find the eigen values and eigen vectors.
 #developed by: Thanika sree B
 #RegisterNumber: 22008978
@@ -34,7 +34,7 @@ import numpy as np
 A = np.array([[4,2],[2,4]])
 values, vectors = np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
-
+```
 ## Output:
 
 ![](/eigen.png)
